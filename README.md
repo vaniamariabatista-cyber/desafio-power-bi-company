@@ -48,7 +48,7 @@ A amostra SQL utilizada contém oito funcionários. Os resultados precisam ser c
 - [x] Repositório criado.
 - [x] Scripts SQL publicados.
 - [x] Documentação inicial.
-- [ ] Executar e validar os scripts no MariaDB.
+- [x] Executar e validar os scripts no MariaDB.
 - [ ] Registrar evidências das consultas.
 - [ ] Realizar a integração com Power BI, se viável no ambiente disponível.
 
