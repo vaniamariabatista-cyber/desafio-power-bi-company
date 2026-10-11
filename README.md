@@ -52,4 +52,16 @@ A amostra SQL utilizada contém oito funcionários. Os resultados precisam ser c
 - [ ] Registrar evidências das consultas.
 - [ ] Realizar a integração com Power BI, se viável no ambiente disponível.
 
-**Observação:** o material original propõe MySQL na Azure e integração com Power BI. Este projeto utiliza MariaDB local como alternativa para desenvolver e testar a etapa SQL. A integração com Power BI ainda não foi concluída.
+## Resultados da validação SQL
+
+As consultas foram executadas no MariaDB local, utilizando o DBeaver.
+
+| Verificação | Resultado |
+|---|---:|
+| Funcionários sem supervisor cadastrado | 1 |
+| Departamentos sem gerente cadastrado | 0 |
+| Total de funcionários | 8 |
+
+A consulta identificou um funcionário sem supervisor cadastrado. Nenhum departamento apresentou ausência de gerente. A base utilizada contém oito funcionários.
+
+A integração com o Power BI Desktop ainda não foi realizada neste ambiente. O desenvolvimento SQL foi executado no MariaDB local como alternativa à configuração MySQL na Azure proposta originalmente.
